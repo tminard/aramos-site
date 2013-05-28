@@ -1,0 +1,77 @@
+body {
+  border-top: 16px solid #F94627;
+}
+
+#social-links {
+  position: absolute;
+  right: 0;
+}
+
+#social-links ul {
+  list-style: none;
+}
+
+#social-links ul li {
+  display: inline-block;
+}
+
+#site-header {
+  margin-top: 2em;
+  text-align: center;
+}
+#site-header h1 {
+  text-transform: lowercase;
+  font-style: italic;
+  margin-bottom: 0;
+}
+#site-header h2 {
+  color: #8D8D8D;
+  font-size: 18pt;
+}
+
+#site-header-slideshow-container
+{
+  margin-top: 1em;
+}
+
+#header-slideshow {
+  background: url('/img/header-app.png') no-repeat;
+  height: 670px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.inline-page {
+  background-color: #E5DFD8;
+}
+
+.inline-page > :first-child {
+  box-shadow: inset 1px 1px 6px rgba(187,180,172,0.6);
+}
+
+/* Foundation Overrides */
+
+nav.top-bar
+{
+  background: inherit;
+  text-align: center;
+}
+
+nav.top-bar ul a
+{
+  background: inherit !important;
+}
+
+nav.top-bar ul li.active
+{
+  border-bottom: 0.25em solid #F94627;
+}
+
+nav.top-bar li a {
+  color: #F94627;
+  font-size: 18pt;
+}
+
+h1 {
+  color: #F94627;
+}
