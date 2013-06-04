@@ -79,6 +79,38 @@ body {
   background-position: 100%;
 }
 
+.has_iphone_screen_examples_image
+{
+  background: url("/img/iphone_screen_examples.png") no-repeat;
+  background-position: 100% 100%;
+}
+
+#service-schedule
+{
+  background-color: #F6F5F3;
+  min-height: 759px;
+  margin-bottom: 2em;
+}
+
+#service-schedule .section-head
+{
+  background-color: #FFFFFF;
+  border-radius: 3px 3px 0 0;
+}
+
+#service-schedule .section-head p {
+  margin: 0;
+}
+
+#service-schedule .section-body
+{
+  overflow: visible;
+  position: absolute;
+  /*background: url("/img/schedule_graphic_timeline.png") no-repeat;
+  height: 590px;
+  width: 403px;*/
+}
+
 /* Foundation Overrides */
 
 blockquote {
