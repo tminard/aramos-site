@@ -46,8 +46,18 @@ body {
   border-bottom: 0.25em solid #F94627;
 }
 
+.inline-page:not(.first-page)
+{
+  padding-top: 4em;
+}
+
 .inline-page.first-page {
   box-shadow: inset 1px 1px 6px rgba(187,180,172,0.6);
+}
+
+.inline-page p {
+  color: #7A746D;
+  font-size: 16pt;
 }
 
 .relative-positioning
@@ -63,7 +73,27 @@ body {
   background-position-y: 100%;
 }
 
+#iphone_elements_image
+{
+  background: url("/img/iphone_elements.png") no-repeat;
+  background-position: 100%;
+}
+
 /* Foundation Overrides */
+
+blockquote {
+  color: #F94627;
+  font-style: italic;
+  font-size: 40.6pt;
+  text-align: center;
+  line-height: 1.25em;
+}
+
+blockquote cite {
+  color: #B5ADA4;
+  font-size: 18pt;
+  font-weight: bold;
+}
 
 [data-magellan-expedition] {
   min-width: 0 !important;
