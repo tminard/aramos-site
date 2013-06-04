@@ -50,8 +50,17 @@ body {
   box-shadow: inset 1px 1px 6px rgba(187,180,172,0.6);
 }
 
-#iphone_app_preview_right {
-  background: url('/img/iphone_app_preview.png') no-repeat;
+.relative-positioning
+{
+  position: relative;
+}
+
+#fortis_app_preview_image
+{
+  background: url("/img/iphone_app_preview.png") no-repeat;
+  height: 379px;
+  width: 404px;
+  background-position-y: 100%;
 }
 
 /* Foundation Overrides */
