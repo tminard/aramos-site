@@ -6,10 +6,10 @@
 	<meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
   <title>Appe Diem</title>
-  
+
   <link rel="stylesheet" href="css/foundation.css" />
   <link rel="stylesheet" href="css/ramos-site.css">
-  
+
 
   <script src="js/vendor/custom.modernizr.js"></script>
 
@@ -26,38 +26,45 @@
       </div>
     </div>
   </div>
-  
+
   <div class="row" id="site-header">
     <div class="large-6 large-centered columns">
       <h1>Appe Diem.</h1>
       <h2>Your app designed in a day</h2>
     </div>
   </div>
-  
+
   <div class="row" id="site-header-slideshow-container">
     <div id="header-slideshow" class="large-8 large-centered columns">
     </div>
   </div>
-  
+
   <div class="row" id="site-navigation">
-    <div class="large-9 columns large-centered">
-      <nav class="top-bar">
-        <section class="top-bar-section">
-          <ul>
-            <li class="active"><a href="#page-overview">Overview</a></li>
-            <li><a href="#page-video">Video</a></li>
-            <li><a href="#page-the-schedule">Schedule</a></li>
-            <li><a href="#page-about">About</a></li>
-            <li><a href="#page-schedule-day">Schedule your day</a></li>
-          </ul>
-        </section>
-      </nav>
+    <div class="large-11 large-centered columns">
+      <div data-magellan-expedition="fixed" class="no-bottom-margin">
+        <dl class="sub-nav">
+          <dd data-magellan-arrival='page-overview' class="active"><a href="#page-overview">Overview</a></dd>
+          <dd data-magellan-arrival='page-video'><a href="#page-video">Video</a></dd>
+          <dd data-magellan-arrival='page-the-schedule'><a href="#page-the-schedule">Schedule</a></dd>
+          <dd data-magellan-arrival='page-about'><a href="#page-about">About</a></dd>
+          <dd data-magellan-arrival='page-schedule-day'><a href="#page-schedule-day">Schedule your day</a></dd>
+        </dl>
+      </div>
     </div>
   </div>
-  
-  <div class="inline-page" id="page-overview">
+
+  <div class="inline-page first-page" id="page-overview" data-magellan-destination="page-overview">
     <div class="row">
-      Content here
+      <div class="large-12 columns empty-spacer-5">
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-6 columns">
+        <h3>Your app. Designed in a single day.</h3>
+        <p>What if you could have your app designed and ready for production before dinner tomorrow? Appe Diem offers exactly that. The concept and design of your app idea laid out and ready for that next step.</p>
+      </div>
+      <div class="large-6 columns" id="iphone_app_preview_right">
+      </div>
     </div>
   </div>
   <script>
@@ -65,40 +72,40 @@
   ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
   '.js><\/script>')
   </script>
-  
+
   <script src="js/foundation.min.js"></script>
   <!--
-  
+
   <script src="js/foundation/foundation.js"></script>
-  
+
   <script src="js/foundation/foundation.alerts.js"></script>
-  
+
   <script src="js/foundation/foundation.clearing.js"></script>
-  
+
   <script src="js/foundation/foundation.cookie.js"></script>
-  
-  <script src="js/foundation/foundation.dropdown.js"></script>
-  
-  <script src="js/foundation/foundation.forms.js"></script>
-  
-  <script src="js/foundation/foundation.joyride.js"></script>
-  
-  <script src="js/foundation/foundation.magellan.js"></script>
-  
-  <script src="js/foundation/foundation.orbit.js"></script>
-  
-  <script src="js/foundation/foundation.placeholder.js"></script>
-  
-  <script src="js/foundation/foundation.reveal.js"></script>
-  
-  <script src="js/foundation/foundation.section.js"></script>
-  
-  <script src="js/foundation/foundation.tooltips.js"></script>
-  
-  <script src="js/foundation/foundation.topbar.js"></script>
-  
-  -->
-  
+
+<script src="js/foundation/foundation.dropdown.js"></script>
+
+<script src="js/foundation/foundation.forms.js"></script>
+
+<script src="js/foundation/foundation.joyride.js"></script>
+
+<script src="js/foundation/foundation.magellan.js"></script>
+
+<script src="js/foundation/foundation.orbit.js"></script>
+
+<script src="js/foundation/foundation.placeholder.js"></script>
+
+<script src="js/foundation/foundation.reveal.js"></script>
+
+<script src="js/foundation/foundation.section.js"></script>
+
+<script src="js/foundation/foundation.tooltips.js"></script>
+
+<script src="js/foundation/foundation.topbar.js"></script>
+
+-->
+
   <script>
     $(document).foundation();
   </script>

@@ -43,35 +43,61 @@ body {
 
 .inline-page {
   background-color: #E5DFD8;
+  border-bottom: 0.25em solid #F94627;
 }
 
-.inline-page > :first-child {
+.inline-page.first-page {
   box-shadow: inset 1px 1px 6px rgba(187,180,172,0.6);
+}
+
+#iphone_app_preview_right {
+  background: url('/img/iphone_app_preview.png') no-repeat;
 }
 
 /* Foundation Overrides */
 
-nav.top-bar
+[data-magellan-expedition] {
+  min-width: 0 !important;
+}
+div.empty-spacer-5 {
+  margin-top: 5em;
+}
+dl.sub-nav dd
 {
-  background: inherit;
-  text-align: center;
+  margin: 0 2em;
+  padding-bottom: 0.75em;
 }
 
-nav.top-bar ul a
+.no-bottom-margin
+{
+  padding-bottom: 0;
+}
+
+dl.sub-nav dd.active
+{
+  border-bottom: 0.3em solid #F94627;
+}
+
+dl.sub-nav dd.active a
 {
   background: inherit !important;
+  color: #F94627 !important;
+  padding: 0 0.1em 0 0.1em !important;
 }
 
-nav.top-bar ul li.active
-{
-  border-bottom: 0.25em solid #F94627;
-}
-
-nav.top-bar li a {
+dl.sub-nav dd a {
   color: #F94627;
   font-size: 18pt;
+  font-weight: bold;
+  margin: 0;
+  padding: 0 0.1em 0 0.1em !important;
 }
 
 h1 {
   color: #F94627;
+}
+
+h3 {
+  font-size: 40pt;
+  color: #4A4642;
 }
