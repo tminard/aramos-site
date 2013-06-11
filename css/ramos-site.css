@@ -41,6 +41,24 @@ body {
   margin: 0 auto;
 }
 
+.inline-page-padding-bottom
+{
+  padding-bottom: 2em;
+}
+
+h3.inline-header {
+  font-family: "Helvetica";
+  font-size: 25.36pt;
+  margin-right: 0.25em;
+  display: inline-block;
+}
+
+p.inline-subheader {
+  font-size: 11pt !important;
+  font-style: italic;
+  display: inline-block;
+}
+
 .inline-page {
   background-color: #E5DFD8;
   border-bottom: 0.25em solid #F94627;
@@ -65,12 +83,10 @@ body {
   position: relative;
 }
 
-#fortis_app_preview_image
+.has_fortis_app_preview_image
 {
   background: url("/img/iphone_app_preview.png") no-repeat;
-  height: 379px;
-  width: 404px;
-  background-position-y: 100%;
+  background-position: 100% 100%;
 }
 
 #iphone_elements_image
@@ -88,18 +104,30 @@ body {
 #service-schedule
 {
   background-color: #F6F5F3;
-  min-height: 759px;
-  margin-bottom: 2em;
+  min-height: 705px;
+  margin-bottom: 3em;
+  border-radius: 3px 3px 0 0;
+}
+
+img.watch-me-work {
+  margin-left: 46px;
+  margin-top: -8px;
 }
 
 #service-schedule .section-head
 {
   background-color: #FFFFFF;
-  border-radius: 3px 3px 0 0;
+  text-align: center;
 }
 
 #service-schedule .section-head p {
   margin: 0;
+  font-style: italic;
+  color: #9a948c;
+}
+
+.highlight-text {
+  color: #df502e !important;
 }
 
 #service-schedule .section-body
@@ -111,7 +139,41 @@ body {
   width: 403px;*/
 }
 
+.standard-info-block
+{
+  text-align: center;
+}
+
+.standard-info-block p
+{
+  font-style: italic;
+  color: #89837c;
+  font-size: 20pt;
+}
+
 /* Foundation Overrides */
+
+.full-width {
+  width: 100%;
+}
+
+#get-started-schedule-container {
+  padding-top: 8%;
+}
+.button.success {
+  background-color: #FF6D4B;
+  border: none;
+  font-size: 18pt;
+}
+
+.button.radius {
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+}
+
+.button.success:hover {
+  background-color: #FF6D4B;
+}
 
 blockquote {
   color: #F94627;
@@ -125,6 +187,17 @@ blockquote cite {
   color: #B5ADA4;
   font-size: 18pt;
   font-weight: bold;
+}
+
+blockquote.secondary-quote {
+  font-size: 23.17pt;
+  font-style: italic;
+  color: #494642;
+}
+
+blockquote.secondary-quote cite {
+  font-weight: normal;
+  font-size: 14pt;
 }
 
 [data-magellan-expedition] {
