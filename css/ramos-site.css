@@ -2,6 +2,13 @@ body {
   border-top: 16px solid #F94627;
 }
 
+footer {
+  color: #8a857e;
+  text-align: center;
+  font-size: 10pt;
+  font-style: italic;
+}
+
 #social-links {
   position: absolute;
   right: 0;
@@ -44,6 +51,39 @@ body {
 .inline-page-padding-bottom
 {
   padding-bottom: 2em;
+}
+
+.footer-page
+{
+  padding: 1em 0 5em 0;
+  background-color: #d8d1c8;
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,.09);
+  -moz-box-shadow: inset 0 0 5px rgba(0,0,0,.09);
+  box-shadow: inset 0 0 5px rgba(0,0,0,.09);
+}
+
+.inline-page-subsection
+{
+  padding: 4em 0;
+  background-color: #d8d1c8;
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,.09);
+  -moz-box-shadow: inset 0 0 5px rgba(0,0,0,.09);
+  box-shadow: inset 0 0 5px rgba(0,0,0,.09);
+}
+
+.inline-page-subsection h3 {
+  font-family: "Helvetica";
+  font-size: 25.92pt;
+  margin-top: 0;
+}
+
+.inline-page-subsection p {
+  font-style: italic;
+  font-size: 14pt;
+}
+
+.inline-page-subsection .button-group li {
+  margin-right: 18px;
 }
 
 h3.inline-header {
@@ -152,6 +192,24 @@ img.watch-me-work {
 }
 
 /* Foundation Overrides */
+
+.button.secondary {
+  color: #8a857e;
+}
+
+.button.secondary:hover {
+  color: #8a857e;
+}
+
+.panel {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 5px rgba(182,174,164,.41);
+  -moz-box-shadow: 0 0 5px rgba(182,174,164,.41);
+  box-shadow: 0 0 5px rgba(182,174,164,.41);
+}
 
 .full-width {
   width: 100%;
