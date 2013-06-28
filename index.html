@@ -19,9 +19,9 @@
     <div class="twelve columns">
       <div id="social-links" class="hide-for-small">
         <ul>
-          <li><a href='#'>Facebook</a></li>
-          <li><a href='#'>Pin</a></li>
-          <li><a href='#'>Twitter</a></li>
+          <li><div class="fb-like" data-href="http://developers.facebook.com/docs/reference/plugins/like" data-send="false" data-layout="box_count" data-width="55" data-show-faces="false"></div></li>
+          <li><a href="//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.flickr.com%2Fphotos%2Fkentbrew%2F6851755809%2F&media=http%3A%2F%2Ffarm8.staticflickr.com%2F7027%2F6851755809_df5b2051c9_z.jpg&description=Next%20stop%3A%20Pinterest" data-pin-do="buttonPin" data-pin-config="none"><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png" /></a></li>
+          <li><a href="https://twitter.com/andrewramos" class="twitter-follow-button" data-show-count="false">Follow @andrewramos</a></li>
         </ul>
       </div>
     </div>
@@ -219,5 +219,15 @@
   <script>
     $(document).foundation();
   </script>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=414696828586292";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 </body>
 </html>
