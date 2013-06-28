@@ -264,10 +264,18 @@ blockquote.secondary-quote cite {
 div.empty-spacer-5 {
   margin-top: 5em;
 }
-dl.sub-nav dd
+ul.sub-nav {
+  list-style: none;
+  width: 930px;
+  margin: 0 auto;
+}
+
+ul.sub-nav li
 {
   margin: 0 2em;
   padding-bottom: 0.75em;
+  float: left;
+  display: inline-block;
 }
 
 .no-bottom-margin
@@ -275,19 +283,19 @@ dl.sub-nav dd
   padding-bottom: 0;
 }
 
-dl.sub-nav dd.active
+ul.sub-nav li.active
 {
   border-bottom: 0.3em solid #F94627;
 }
 
-dl.sub-nav dd.active a
+ul.sub-nav li.active a
 {
   background: inherit !important;
   color: #F94627 !important;
   padding: 0 0.1em 0 0.1em !important;
 }
 
-dl.sub-nav dd a {
+ul.sub-nav li a {
   color: #F94627;
   font-size: 18pt;
   font-weight: bold;
