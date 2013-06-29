@@ -50,7 +50,7 @@ footer {
 
 .inline-page-padding-bottom
 {
-  padding-bottom: 2em;
+  padding-bottom: 4em;
 }
 
 .footer-page
@@ -143,10 +143,17 @@ p.inline-subheader {
 
 #service-schedule
 {
+  padding-top: 53px;
   background-color: #F6F5F3;
-  min-height: 705px;
+  min-height: 828px;
   margin-bottom: 3em;
-  border-radius: 3px 3px 0 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 5px rgba(182,174,164,.41);
+  -moz-box-shadow: 0 0 5px rgba(182,174,164,.41);
+  box-shadow: 0 0 5px rgba(182,174,164,.41);
 }
 
 img.watch-me-work {
@@ -154,16 +161,21 @@ img.watch-me-work {
   margin-top: -8px;
 }
 
+.bottom-margin {
+  margin-bottom: 88px;
+}
 #service-schedule .section-head
 {
   background-color: #FFFFFF;
   text-align: center;
+  margin-bottom: 2em;
 }
 
 #service-schedule .section-head p {
   margin: 0;
   font-style: italic;
   color: #9a948c;
+  padding: 0 5em;
 }
 
 .highlight-text {
