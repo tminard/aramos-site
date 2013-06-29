@@ -74,7 +74,7 @@ footer {
 }
 
 .inline-page-subsection h3 {
-  font-family: "Helvetica";
+  font-family: "futura-pt";
   font-size: 25.92pt;
   margin-top: 0;
 }
@@ -97,6 +97,7 @@ h3.inline-header {
 
 p.inline-subheader {
   font-size: 11pt !important;
+  font-family: "droid-serif";
   font-style: italic;
   display: inline-block;
 }
