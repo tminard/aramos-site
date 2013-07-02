@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 
 <head>
@@ -21,7 +21,7 @@
     <div class="twelve columns">
       <div id="social-links" class="hide-for-small">
         <ul>
-          <li><div class="fb-like" data-href="http://developers.facebook.com/docs/reference/plugins/like" data-send="false" data-layout="box_count" data-width="55" data-show-faces="false"></div></li>
+          <li><div class="fb-like" data-href="http://appediem.com" data-send="false" data-layout="button_count" data-width="55" data-show-faces="false"></div></li>
           <li><a href="//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.flickr.com%2Fphotos%2Fkentbrew%2F6851755809%2F&media=http%3A%2F%2Ffarm8.staticflickr.com%2F7027%2F6851755809_df5b2051c9_z.jpg&description=Next%20stop%3A%20Pinterest" data-pin-do="buttonPin" data-pin-config="none"><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png" /></a></li>
           <li><a href="https://twitter.com/andrewramos" class="twitter-follow-button" data-show-count="false">Follow @andrewramos</a></li>
         </ul>
@@ -44,7 +44,7 @@
 
   <div class="row hide-for-small" id="site-navigation">
     <div class="large-11 large-centered columns">
-      <div data-magellan-expedition="fixed" class="no-bottom-margin" style="left:0; width: 100%">
+      <div id="floating-navigation-bar" data-magellan-expedition="fixed" class="no-bottom-margin" style="left:0; width: 100%">
         <ul class="sub-nav">
           <li data-magellan-arrival='page-overview' class="active"><a href="#page-overview">Overview</a></li>
           <li data-magellan-arrival='page-video'><a href="#page-video">Video</a></li>
@@ -56,12 +56,12 @@
     </div>
   </div>
 
-  <div class="inline-page first-page" id="page-overview" data-magellan-destination="page-overview">
+  <div class="inline-page first-page">
     <div class="row">
       <div class="large-12 columns empty-spacer-5">
       </div>
     </div>
-    <div class="row">
+    <div class="row" id="page-overview" data-magellan-destination="page-overview">
       <div class="large-12 columns has_fortis_app_preview_image hide-for-small">
         <div class="large-6 columns small-12">
           <h3>Your app. Designed in a single day.</h3>
@@ -112,7 +112,7 @@
       </div>
 
       <div class="large-12 columns large-centered">
-        <div id="service-schedule" class="has_iphone_screen_examples_image">
+        <div id="service-schedule" class="has_iphone_screen_examples_image hide-for-small">
           <div class="section-head">
             <h3>The Day's Schedule</h3>
             <p>You will end up with <span class="highlight-text">3-4 finished screens + an App icon</span>, plus an interactive mockup of your app — ready to show an investor, developer, or your mom. Whatever your next step is, you’re moving forward. </p>
@@ -187,37 +187,6 @@
   </script>
 
   <script src="js/foundation.min.js"></script>
-  <!--
-
-  <script src="js/foundation/foundation.js"></script>
-
-  <script src="js/foundation/foundation.alerts.js"></script>
-
-  <script src="js/foundation/foundation.clearing.js"></script>
-
-  <script src="js/foundation/foundation.cookie.js"></script>
-
-<script src="js/foundation/foundation.dropdown.js"></script>
-
-<script src="js/foundation/foundation.forms.js"></script>
-
-<script src="js/foundation/foundation.joyride.js"></script>
-
-<script src="js/foundation/foundation.magellan.js"></script>
-
-<script src="js/foundation/foundation.orbit.js"></script>
-
-<script src="js/foundation/foundation.placeholder.js"></script>
-
-<script src="js/foundation/foundation.reveal.js"></script>
-
-<script src="js/foundation/foundation.section.js"></script>
-
-<script src="js/foundation/foundation.tooltips.js"></script>
-
-<script src="js/foundation/foundation.topbar.js"></script>
-
--->
 
   <script>
     $(document).foundation();
@@ -225,12 +194,12 @@
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
   <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
   <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=414696828586292";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </body>
 </html>
