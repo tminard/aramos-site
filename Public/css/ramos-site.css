@@ -148,6 +148,10 @@ p.inline-subheader {
   background-position: 100% 100%;
 }
 
+#iphone_elements_image p {
+  margin-bottom: 0;
+}
+
 #iphone_elements_image
 {
   background: url("/img/iphone_elements.png") no-repeat;
