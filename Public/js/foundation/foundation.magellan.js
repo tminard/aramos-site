@@ -80,8 +80,10 @@
               $expedition.data("magellan-fixed-position", fixed_position);
               if (fixed_position) {
                 $expedition.css({position:"fixed", top:0});
+                $expedition.addClass("scrolling")
               } else {
                 $expedition.css({position:"", top:""});
+                $expedition.removeClass("scrolling")
               }
               if (fixed_position && typeof attr != 'undefined' && attr != false) {
                 $expedition.css({position:"fixed", top:attr + "px"});

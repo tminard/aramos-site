@@ -40,28 +40,30 @@
   <div class="row" id="site-header-slideshow-container">
     <div id="header-slideshow" class="large-8 large-centered columns hide-for-small">
     </div>
+    <div id="header-slideshow-small" class="small-12 small-centered columns show-for-small">
+    </div>
   </div>
 
   <div class="row hide-for-small" id="site-navigation">
     <div class="large-11 large-centered columns">
       <div id="floating-navigation-bar" data-magellan-expedition="fixed" class="no-bottom-margin" style="left:0; width: 100%">
         <ul class="sub-nav">
-          <li data-magellan-arrival='page-overview' class="active"><a href="#page-overview">Overview</a></li>
-          <li data-magellan-arrival='page-video'><a href="#page-video">Video</a></li>
-          <li data-magellan-arrival='page-the-schedule'><a href="#page-the-schedule">Schedule</a></li>
-          <li data-magellan-arrival='page-schedule-day'><a href="#page-schedule-day">Schedule your day</a></li>
+          <li data-magellan-arrival='page-overview' class="active"><a href="#page-overview" data-scroll="845">Overview</a></li>
+          <li data-magellan-arrival='page-video'><a href="#page-video" data-scroll="1292">Video</a></li>
+          <li data-magellan-arrival='page-the-schedule'><a href="#page-the-schedule" data-scroll="1992">Schedule</a></li>
+          <li data-magellan-arrival='page-schedule-day'><a href="#page-schedule-day" data-scroll="3558">Schedule your day</a></li>
           <li data-magellan-arrival='page-about'><a href="#page-about">About</a></li>
         </ul>
       </div>
     </div>
   </div>
 
-  <div class="inline-page first-page">
+  <div class="inline-page first-page" id="page-overview">
     <div class="row">
       <div class="large-12 columns empty-spacer-5">
       </div>
     </div>
-    <div class="row" id="page-overview" data-magellan-destination="page-overview">
+    <div class="row" data-magellan-destination="page-overview">
       <div class="large-12 columns has_fortis_app_preview_image hide-for-small">
         <div class="large-6 columns small-12">
           <h3>Your app. Designed in a single day.</h3>
@@ -82,7 +84,16 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row show-for-small">
+      <div class="large-12 small-centered columns">
+        <blockquote id="appe-diem-mission-statement-quote-small">
+          You can't build on top of "We'll decide later" but you can build on top of "Done"
+          <cite>Rework, by 37 Signals</cite>
+        </blockquote>
+      </div>
+    </div>
+
+    <div class="row hide-for-small">
       <div class="large-12 large-centered columns">
         <blockquote id="appe-diem-mission-statement-quote">
           You can't build on top of "We'll decide later" but you can build on top of "Done"
@@ -107,7 +118,7 @@
         <p>It’s easy for an app’s budget to quckly grow larger than expected, when oftentimes you simply need that first step. This App-in-a-day process has been priced to do just that, without breaking the bank.</p>
       </div>
 
-      <div class="large-4 columns large-centered inline-page-padding-bottom">
+      <div class="large-4 columns large-centered inline-page-padding-bottom" style="text-align: center">
         <img src="/img/price_tag.png" alt="Service Cost: $1000" />
       </div>
 
@@ -132,7 +143,7 @@
 
   <div class="inline-page" id="page-schedule-day" data-magellan-destination="page-schedule-day">
     <div class="row">
-      <div class="large-1 columns large-centered">
+      <div class="large-1 columns large-centered" style="text-align: center">
         <img src="/img/pilltimer_icon.png" alt="PillTimer App in Apple Store" />
       </div>
       <div class="large-12 columns large-centered">
@@ -186,7 +197,20 @@
   '.js><\/script>')
   </script>
 
-  <script src="js/foundation.min.js"></script>
+  <script src="js/foundation/foundation.js"></script>
+  <script src="js/foundation/foundation.alerts.js"></script>
+  <script src="js/foundation/foundation.clearing.js"></script>
+  <script src="js/foundation/foundation.cookie.js"></script>
+  <script src="js/foundation/foundation.dropdown.js"></script>
+  <script src="js/foundation/foundation.forms.js"></script>
+  <script src="js/foundation/foundation.joyride.js"></script>
+  <script src="js/foundation/foundation.magellan.js"></script>
+  <script src="js/foundation/foundation.orbit.js"></script>
+  <script src="js/foundation/foundation.placeholder.js"></script>
+  <script src="js/foundation/foundation.reveal.js"></script>
+  <script src="js/foundation/foundation.section.js"></script>
+  <script src="js/foundation/foundation.tooltips.js"></script>
+  <script src="js/foundation/foundation.topbar.js"></script>
 
   <script>
     $(document).foundation();

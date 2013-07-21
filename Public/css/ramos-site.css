@@ -12,6 +12,12 @@ footer {
 #floating-navigation-bar {
 }
 
+.scrolling {
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,.09);
+  -moz-box-shadow: inset 0 0 5px rgba(0,0,0,.09);
+  box-shadow: inset 0 0 5px rgba(0,0,0,.09);
+}
+
 #social-links {
   position: absolute;
   right: 0;
@@ -50,6 +56,13 @@ footer {
   background: url('/img/header-app.png') no-repeat;
   height: 670px;
   width: 500px;
+  margin: 0 auto;
+}
+
+#header-slideshow-small {
+  background: url('/img/header-app-small.png') no-repeat;
+  height: 670px;
+  width: 300px;
   margin: 0 auto;
 }
 
@@ -253,6 +266,14 @@ img.watch-me-work {
   background-color: #FF6D4B;
 }
 
+blockquote#appe-diem-mission-statement-quote-small {
+  font-size: 20pt;
+}
+
+blockquote#appe-diem-mission-statement-quote-small cite {
+  font-size: 9pt;
+}
+
 blockquote {
   font-family: "droid-serif";
   color: #F94627;
@@ -283,6 +304,11 @@ blockquote.secondary-quote cite {
 [data-magellan-expedition] {
   min-width: 0 !important;
 }
+
+#about-the-designer-photo-container {
+  text-align: center;
+}
+
 div.empty-spacer-5 {
   margin-top: 5em;
 }
