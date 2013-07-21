@@ -290,6 +290,17 @@ blockquote cite {
   font-weight: bold;
 }
 
+blockquote.secondary-quote-small {
+  font-size: 18pt;
+  font-style: italic;
+  color: #494642;
+}
+
+blockquote.secondary-quote-small cite {
+  font-weight: normal;
+  font-size: 9pt;
+}
+
 blockquote.secondary-quote {
   font-size: 23.17pt;
   font-style: italic;
