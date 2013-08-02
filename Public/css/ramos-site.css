@@ -1,5 +1,6 @@
 body {
   border-top: 16px solid #F94627;
+  font-family: "droid-serif";
 }
 
 footer {
@@ -13,14 +14,15 @@ footer {
 }
 
 .scrolling {
-  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,.09);
-  -moz-box-shadow: inset 0 0 5px rgba(0,0,0,.09);
-  box-shadow: inset 0 0 5px rgba(0,0,0,.09);
+  -webkit-box-shadow: 1px 3px 6px rgba(187,180,172,0.6);
+  -moz-box-shadow: 1px 3px 6px rgba(187,180,172,0.6);
+  box-shadow: 1px 3px 6px rgba(187,180,172,0.6);
 }
 
 #social-links {
   position: absolute;
   right: 0;
+  margin-top: 20px;
 }
 
 #social-links ul {
@@ -29,10 +31,11 @@ footer {
 
 #social-links ul li {
   display: inline-block;
+  margin-right: 10px;
 }
 
 #site-header {
-  margin-top: 2em;
+  margin-top: 120px;
   text-align: center;
 }
 #site-header h1 {
@@ -57,6 +60,7 @@ footer {
   height: 670px;
   width: 500px;
   margin: 0 auto;
+  margin-bottom: 150px;
 }
 
 #header-slideshow-small {
@@ -68,16 +72,23 @@ footer {
 
 .inline-page-padding-bottom
 {
-  padding-bottom: 4em;
+  padding-bottom: 2em;
 }
 
 .footer-page
 {
   padding: 1em 0 5em 0;
   background-color: #d8d1c8;
-  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,.09);
-  -moz-box-shadow: inset 0 0 5px rgba(0,0,0,.09);
-  box-shadow: inset 0 0 5px rgba(0,0,0,.09);
+}
+
+#page-schedule-day {
+  border-bottom: none;
+}
+
+#page-about {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }
 
 .inline-page-subsection
@@ -118,6 +129,7 @@ p.inline-subheader {
   display: inline-block;
 }
 
+
 .inline-page {
   background-color: #E5DFD8;
   border-bottom: 0.25em solid #F94627;
@@ -134,7 +146,7 @@ p.inline-subheader {
 
 .inline-page p {
   color: #7A746D;
-  font-size: 16pt;
+  font-size: 16px;
 }
 
 .relative-positioning
@@ -156,6 +168,7 @@ p.inline-subheader {
 {
   background: url("/img/iphone_elements.png") no-repeat;
   background-position: 100%;
+  height: 200px;
 }
 
 .has_iphone_screen_examples_image
@@ -166,22 +179,31 @@ p.inline-subheader {
 
 #service-schedule
 {
-  padding-top: 53px;
   background-color: #F6F5F3;
   min-height: 828px;
   margin-bottom: 3em;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  background-color: #fff;
   -webkit-box-shadow: 0 0 5px rgba(182,174,164,.41);
   -moz-box-shadow: 0 0 5px rgba(182,174,164,.41);
   box-shadow: 0 0 5px rgba(182,174,164,.41);
 }
 
+#service-schedule .inner_box_shadow {
+  background: url('/img/schedule_inner_shadow.png') repeat-x;
+  height: 4px;
+  width: 100%;
+}
+
 img.watch-me-work {
   margin-left: 46px;
   margin-top: -8px;
+}
+
+#your-app-text {
+  margin-top: 89px;
+  padding-bottom: 3em;
 }
 
 .bottom-margin {
@@ -190,8 +212,13 @@ img.watch-me-work {
 #service-schedule .section-head
 {
   background-color: #FFFFFF;
+  padding-top: 53px;
+  padding-bottom: 66px;
   text-align: center;
-  margin-bottom: 2em;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,.09);
+  -moz-box-shadow: inset 0 0 5px rgba(0,0,0,.09);
+  box-shadow: inset 0 0 5px rgba(0,0,0,.09);
 }
 
 #service-schedule .section-head p {
@@ -199,6 +226,7 @@ img.watch-me-work {
   font-style: italic;
   color: #9a948c;
   padding: 0 5em;
+  font-size: 20px;
 }
 
 .highlight-text {
@@ -209,6 +237,7 @@ img.watch-me-work {
 {
   overflow: visible;
   position: absolute;
+  margin-top:-4px;
   /*background: url("/img/schedule_graphic_timeline.png") no-repeat;
   height: 590px;
   width: 403px;*/
@@ -223,7 +252,8 @@ img.watch-me-work {
 {
   font-style: italic;
   color: #89837c;
-  font-size: 20pt;
+  font-size: 20px;
+  font-weight: normal;
 }
 
 /* hacks */
@@ -253,12 +283,12 @@ img.watch-me-work {
 }
 
 #get-started-schedule-container {
-  padding-top: 8%;
+  padding-top: 5%;
 }
 .button.success {
   background-color: #FF6D4B;
   border: none;
-  font-size: 18pt;
+  font-size: 20px;
 }
 
 .button.radius {
@@ -282,7 +312,7 @@ blockquote {
   font-family: "droid-serif";
   color: #F94627;
   font-style: italic;
-  font-size: 40.6pt;
+  font-size: 40.6px;
   text-align: center;
   line-height: 1.25em;
 }
@@ -291,6 +321,7 @@ blockquote cite {
   color: #B5ADA4;
   font-family: "futura-pt";
   font-size: 18pt;
+  font-style: normal;
   font-weight: bold;
 }
 
@@ -306,7 +337,7 @@ blockquote.secondary-quote-small cite {
 }
 
 blockquote.secondary-quote {
-  font-size: 23.17pt;
+  font-size: 23.17px;
   font-style: italic;
   color: #494642;
 }
@@ -380,6 +411,6 @@ img.logo {
 
 h3 {
   font-family: "futura-pt";
-  font-size: 37pt;
+  font-size: 40px;
   color: #4A4642;
 }
