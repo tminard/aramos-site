@@ -23,6 +23,7 @@ footer {
   position: absolute;
   right: 0;
   margin-top: 20px;
+  text-align: center;
 }
 
 #social-links ul {
@@ -35,7 +36,7 @@ footer {
 }
 
 #site-header {
-  margin-top: 120px;
+  margin-top: 0;
   text-align: center;
 }
 #site-header h1 {
@@ -52,7 +53,7 @@ footer {
 
 #site-header-slideshow-container
 {
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 #header-slideshow {
@@ -94,10 +95,10 @@ footer {
 .inline-page-subsection
 {
   padding: 4em 0;
-  background-color: #d8d1c8;
-  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,.09);
-  -moz-box-shadow: inset 0 0 5px rgba(0,0,0,.09);
-  box-shadow: inset 0 0 5px rgba(0,0,0,.09);
+  background-color: #c9c3bc;
+  -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.2);
+  -moz-box-shadow: inset 0 0 4px rgba(0,0,0,0.2);
+  box-shadow: inset 0 0 4px rgba(0,0,0,0.2);
 }
 
 .inline-page-subsection h3 {
@@ -185,9 +186,9 @@ p.inline-subheader {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  -webkit-box-shadow: 0 0 5px rgba(182,174,164,.41);
-  -moz-box-shadow: 0 0 5px rgba(182,174,164,.41);
-  box-shadow: 0 0 5px rgba(182,174,164,.41);
+  -webkit-box-shadow: 0 0 5px rgba(182,174,164,.60);
+  -moz-box-shadow: 0 0 5px rgba(182,174,164,.60);
+  box-shadow: 0 0 5px rgba(182,174,164,.60);
 }
 
 #service-schedule .inner_box_shadow {
@@ -202,7 +203,6 @@ img.watch-me-work {
 }
 
 #your-app-text {
-  margin-top: 89px;
   padding-bottom: 3em;
 }
 
@@ -216,9 +216,10 @@ img.watch-me-work {
   padding-bottom: 66px;
   text-align: center;
   border-radius: 5px;
-  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,.09);
-  -moz-box-shadow: inset 0 0 5px rgba(0,0,0,.09);
-  box-shadow: inset 0 0 5px rgba(0,0,0,.09);
+  border-radius: 5px 5px 0px 0px;
+  -webkit-box-shadow: inset 0 0px 3px rgba(0,0,0,.04);
+  -moz-box-shadow: inset 0 0px 3px rgba(0,0,0,.04);
+  box-shadow: inset 0 0px 3px rgba(0,0,0,.04);
 }
 
 #service-schedule .section-head p {
@@ -260,6 +261,11 @@ img.watch-me-work {
 
 /* Foundation Overrides */
 
+button, .button {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
 .button.secondary {
   color: #8a857e;
 }
@@ -283,7 +289,8 @@ img.watch-me-work {
 }
 
 #get-started-schedule-container {
-  padding-top: 5%;
+  padding-top: 4.25%;
+  padding-right: 4.25%;
 }
 .button.success {
   background-color: #FF6D4B;
@@ -292,7 +299,7 @@ img.watch-me-work {
 }
 
 .button.radius {
-  border-radius: 25px;
+  border-radius: 30px;
   -webkit-border-radius: 25px;
 }
 
@@ -358,6 +365,11 @@ blockquote.secondary-quote cite {
 div.empty-spacer-5 {
   margin-top: 5em;
 }
+#nav-wrap {
+  margin: 0 auto;
+  width: 62.5em;
+}
+
 ul.sub-nav {
   list-style: none;
   width: 930px;
@@ -376,6 +388,27 @@ ul.sub-nav li
 .no-bottom-margin
 {
   padding-bottom: 0;
+}
+
+#nav-wrap-white-bg-sticky-wrapper {
+  position: absolute;
+}
+
+.is-sticky #nav-wrap-white-bg {
+  -webkit-box-shadow: 1px 3px 6px rgba(187,180,172,0.6);
+  -moz-box-shadow: 1px 3px 6px rgba(187,180,172,0.6);
+  box-shadow: 1px 3px 6px rgba(187,180,172,0.6);
+}
+
+#nav-wrap-white-bg {
+  width: 100%;
+  height: 58px;
+  background-color: white;
+}
+
+#site-navigation {
+  z-index: 9999999;
+  background-color: white;
 }
 
 ul.sub-nav li.active
