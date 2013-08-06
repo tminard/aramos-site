@@ -398,6 +398,7 @@ ul.sub-nav li
   -webkit-box-shadow: 1px 3px 6px rgba(187,180,172,0.6);
   -moz-box-shadow: 1px 3px 6px rgba(187,180,172,0.6);
   box-shadow: 1px 3px 6px rgba(187,180,172,0.6);
+  z-index: 9999998;
 }
 
 #nav-wrap-white-bg {
