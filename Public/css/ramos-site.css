@@ -3,6 +3,10 @@ body {
   font-family: "droid-serif";
 }
 
+body.lock {
+  overflow: hidden;
+}
+
 footer {
   color: #8a857e;
   text-align: center;
@@ -257,6 +261,10 @@ img.watch-me-work {
   font-weight: normal;
 }
 
+#watch_me_work_link:hover h3.inline-header {
+  color: black;
+  cursor: pointer;
+}
 /* hacks */
 
 /* Foundation Overrides */
@@ -279,6 +287,12 @@ button, .button {
   -moz-border-radius: 5px;
   border-radius: 5px;
   background-color: #fff;
+  -webkit-box-shadow: 0 0 5px rgba(182,174,164,.41);
+  -moz-box-shadow: 0 0 5px rgba(182,174,164,.41);
+  box-shadow: 0 0 5px rgba(182,174,164,.41);
+}
+
+.video-panel {
   -webkit-box-shadow: 0 0 5px rgba(182,174,164,.41);
   -moz-box-shadow: 0 0 5px rgba(182,174,164,.41);
   box-shadow: 0 0 5px rgba(182,174,164,.41);
@@ -388,6 +402,18 @@ ul.sub-nav li
 .no-bottom-margin
 {
   padding-bottom: 0;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-radius {
+  border-radius: 0 !important;
 }
 
 #nav-wrap-white-bg-sticky-wrapper {
