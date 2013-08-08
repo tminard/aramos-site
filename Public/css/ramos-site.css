@@ -58,8 +58,11 @@ footer {
   margin-top: 2em;
 }
 
+#site-navigation-sticky-wrapper {
+  height: auto !important;
+}
+
 #header-slideshow {
-  background: url('/img/header-app.png') no-repeat;
   height: 670px;
   width: 500px;
   margin: 0 auto;
@@ -270,6 +273,21 @@ img.watch-me-work {
 /* hacks */
 
 /* Foundation Overrides */
+
+.orbit-bullets {
+  position: absolute;
+  top: -31px;
+  z-index: 9999;
+  left: 44%;
+}
+
+.orbit-container {
+  position: initial !important;
+}
+
+.orbit-slide-number {
+  display: none;
+}
 
 button, .button {
   padding-top: 1em;
