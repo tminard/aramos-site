@@ -275,6 +275,10 @@ img.watch-me-work {
 
 /* Foundation Overrides */
 
+.orbit-next, .orbit-prev {
+  display: none;
+}
+
 .orbit-bullets {
   position: absolute;
   top: -57px;
