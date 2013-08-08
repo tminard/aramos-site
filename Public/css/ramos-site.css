@@ -24,8 +24,6 @@ footer {
 }
 
 #social-links {
-  position: absolute;
-  right: 0;
   margin-top: 20px;
   text-align: center;
 }
@@ -185,7 +183,7 @@ p.inline-subheader {
 #service-schedule
 {
   background-color: #F6F5F3;
-  min-height: 828px;
+  min-height: 788px;
   margin-bottom: 3em;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -202,7 +200,7 @@ p.inline-subheader {
 }
 
 img.watch-me-work {
-  margin-left: 46px;
+  margin-left: 42px;
   margin-top: -8px;
 }
 
@@ -246,6 +244,10 @@ img.watch-me-work {
   /*background: url("/img/schedule_graphic_timeline.png") no-repeat;
   height: 590px;
   width: 403px;*/
+}
+
+.section-body img {
+  height: 580px;
 }
 
 .standard-info-block
@@ -388,6 +390,7 @@ ul.sub-nav {
   list-style: none;
   width: 930px;
   margin: 0 auto;
+  padding-top: 0.50em;
 }
 
 ul.sub-nav li
@@ -429,7 +432,7 @@ ul.sub-nav li
 
 #nav-wrap-white-bg {
   width: 100%;
-  height: 58px;
+  height: 3.875em;
   background-color: white;
 }
 
