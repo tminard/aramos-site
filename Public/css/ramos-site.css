@@ -275,6 +275,27 @@ img.watch-me-work {
 
 /* Foundation Overrides */
 
+.orbit-bullets li {
+  width: 18px;
+  height: 18px;
+  background-color: #e5dfd7;
+  border: none;
+}
+
+.orbit-bullets li:hover {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.orbit-bullets li.active {
+  background-color: #f44914;
+}
+
+.orbit-timer {
+  display: none;
+}
+
 .orbit-next, .orbit-prev {
   display: none;
 }
@@ -283,7 +304,7 @@ img.watch-me-work {
   position: absolute;
   top: -57px;
   z-index: 9999;
-  left: 44%;
+  left: 202px;
 }
 
 .orbit-container {
@@ -300,10 +321,15 @@ button, .button {
 }
 
 .button.secondary {
+  background-color: #e5dfd7;
   color: #8a857e;
+  -webkit-box-shadow: 0 0 5px rgba(182,174,164,.41);
+  -moz-box-shadow: 0 0 5px rgba(182,174,164,.41);
+  box-shadow: 0 0 5px rgba(182,174,164,.41);
 }
 
 .button.secondary:hover {
+  background-color: #e5dfd7;
   color: #8a857e;
 }
 
@@ -317,7 +343,7 @@ button, .button {
   box-shadow: 0 0 5px rgba(182,174,164,.41);
 }
 
-.video-panel {
+.video-panel iframe {
   -webkit-box-shadow: 0 0 5px rgba(182,174,164,.41);
   -moz-box-shadow: 0 0 5px rgba(182,174,164,.41);
   box-shadow: 0 0 5px rgba(182,174,164,.41);
@@ -339,7 +365,7 @@ button, .button {
 
 .button.radius {
   border-radius: 30px;
-  -webkit-border-radius: 25px;
+  -webkit-border-radius: 30px;
 }
 
 .button.success:hover {
