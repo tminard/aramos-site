@@ -32,6 +32,10 @@ footer {
   list-style: none;
 }
 
+#social-links ul li.last {
+  margin-right: 0;
+}
+
 #social-links ul li {
   display: inline-block;
   margin-right: 10px;
