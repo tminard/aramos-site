@@ -433,6 +433,7 @@ div.empty-spacer-5 {
 #nav-wrap {
   margin: 0 auto;
   width: 62.5em;
+  min-height: 62px;
 }
 
 ul.sub-nav {
